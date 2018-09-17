@@ -17,6 +17,8 @@ button {
     height: 100%;
     font-weight: 700;
     font-size: medium;
+    --webkit-transition: background 0.6s; /* An engine that browsers use like safari */
+    -moz-transition: background 0.6s; /* Short for Mezilla, which is what firefox is built on  */
 }
 
 input {
