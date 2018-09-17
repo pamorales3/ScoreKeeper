@@ -1,3 +1,40 @@
-.winner {
-    color: green;
+.p1winner {
+    color: darkgreen;
+}
+
+.p2winner {
+    color: darkred;
+}
+
+body {
+    text-align: center;
+    background-color: steelblue;
+    font-size: 50px;
+}
+
+button {
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    font-size: medium;
+}
+
+input {
+    height: 100%;
+    font-size: medium;
+}
+
+#p1 {
+    background-color: darkgreen;
+    color: white;
+}
+
+#p2 {
+    background-color: darkred;
+    color: white;
+}
+
+#reset {
+    background-color: darkorange;
+    color: white;
 }
